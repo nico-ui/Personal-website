@@ -1,0 +1,25 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.footer {
+  background-color: #B9F6CA;
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+.jumbotrom {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #00C853;
+  color: floralwhite; }
+
+  body {
+    padding: 0px 0px 0px 0px;/*50px*/
+    z-index: 0;
+  }
