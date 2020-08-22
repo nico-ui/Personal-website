@@ -4,7 +4,7 @@
 
 .row-content {
   margin: 0px auto;
-  padding: 50px 0px;
+  padding: 150px 0px; /*50 0*/
   border-bottom: 1px ridge;
   min-height: 400px; }
 
@@ -15,11 +15,15 @@
 
 .jumbotrom {
   margin: 0px auto;
-  padding: 70px 30px;
+  padding: 70px 30px;/*70 30*/
   background: #00C853;
   color: floralwhite; }
 
   body {
-    padding: 0px 0px 0px 0px;/*50px*/
+    padding: 50px 0px 0px 0px;/*50px 0 0 0*/
     z-index: 0;
   }
+
+.navbar-dark{
+  background:  #00C853;
+}

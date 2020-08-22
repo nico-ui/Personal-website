@@ -9,12 +9,38 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
   <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- <title>Hernández Rios Cristian Nicolai</title> -->
 </head>
 
 <body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="30" width="41"></a> -->
+      <div class="collapse navbar-collapse" id="Navbar">
+        <ul class="navbar-nav mr-auto">
+          <!--right margin-->
+          <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+        </ul>
+        <!-- login -->
+        <span class="navbar-text">
+          <a id="linkLoginModal">
+            <span class="fa fa-sign-in"></span>Login</a>
+        </span>
+      </div>
+    </div>
+  </nav>
+
   <header class="jumbotrom">
     <div class="container">
       <div class="row row-header">
@@ -23,18 +49,81 @@
     </div>
   </header>
   <div class="container">
-    <div class="row row-content">
-      <div class="col-12 col-sm-6 align-items-center">
-        <h1>About me</h1>
-        <p>Create a responsive web app to show my skills and habits. It should show profesional skills and personal aspects to emphasize my personal attributes, values, strengths, passions what the people recognize about me and value of me.</p>
+    <div class="row row-content justify-content-center">
+      <div class="col-12 col-sm-6">
+        <h1>Sobre mí</h1>
+        <p>Estudiante de octavo semestre de la carrera de ingeniería en sistemas computacionales del instituto politécnico nacional,
+          Adaptabilidad, trabajo en equipo, buena presencia, analítico, manejode presión.
+          5 años de experiencia ejerciendo como mesero fines de semana.
+        </p>
+        <p>Deseo colaborar en un área de sistemas de cómputo diseñando soluciones lógicas para lograr un buen funcionamiento de la empresa a través del uso óptimo de recursos, planeación estratégica e implementación de mejores prácticas para
+          satisfacer las demandas de los clientes.</p>
+        </p>
+      </div>
+    </div>
+
+    <div class="row row-content justify-content-center">
+      <div class="col-12 col-sm-6">
+        <h1>Áreas de interés</h1>
+        <p>Full Stack Web Developer
+          Desarrollador de Sotfware</p>
+      </div>
+    </div>
+
+    <div class="row row-content justify-content-center">
+      <div class="col-12 col-sm-6">
+        <h1>Experiencia Profesional</h1>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="row row-content justify-content-center">
+      <div class="col-12 col-sm-6">
+        <h1>Formación</h1>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="row row-content justify-content-center">
+      <div class="col-12 col-sm-6">
+        <h1>Habilidades</h1>
+        <p></p>
+      </div>
+    </div>
+
+    <div class="row row-content justify-content-center">
+      <div class="col-12 col-sm-6">
+        <h1>Portafolio</h1>
+        <p></p>
       </div>
     </div>
 
   </div>
   <footer class="footer">
     <div class="container">
-      <div class="row">
-        <h2>Contact</h2>
+      <div class="row row-content justify-content-center">
+        <!-- <h1>Contacto:</h1> -->
+
+        <div class="col col-sm-12">
+          <h1 class="text-center">Contacto</h1>
+          <p class="text-center">Si le hubiera preguntado a la gente qué querían, habrían dicho caballos más rápidos.<br>- Henry Ford</p>
+          <hr>
+        </div>
+
+        <div class="col-3 col-sm-4">
+          <ul class="list-unstyled">
+            <li><a class="btn btn-social-icon btn-linkedin">LinkedIn</a></li>
+            <li><a class="btn btn-social-icon btn-facebook">Facebook</a></li>
+            <li><a class="btn btn-social-icon btn-instagram">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="col-3 col-sm-4">
+          <ul class="list-unstyled">
+            <li><a class="btn btn-social-icon btn-github">GitHub</a></li>
+            <li><a class="btn btn-social-icon btn-correo">Correo</a></li>
+          </ul>
+        </div>
+
       </div>
     </div>
   </footer>
